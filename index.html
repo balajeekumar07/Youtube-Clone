@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon_32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="Assest/Image/menu.png" class="menu-icon">
+            <img src="Assest/logo.png" class="logo">
+        </div>
+
+        <div class="nav-middel flex-div">
+            <div class="srarch-box">
+                <input type="text" placeholder="Search">
+                <img src="Assest/Image/search.png" class="search-icon">
+            </div>
+            <img src="Assest/Image/voice-search.png" class="mic-icon">
+        </div>
+
+        <div class="nav-right flex-div">
+            <div class="Upload-icon"> <i class="fa-solid fa-plus"></i>Create</div>
+            <img src="Assest/Image/notification.png">
+            <img src="Assest/Image/user-1.png" class="user-icon">
+        </div>
+    </nav>
+    <!-- ----------------------Sidebar---------------------- -->
+    <div class="sidebar">
+        <div class="shortcut-link">
+            <a href="#"><img src="Assest/Image/home.png" width="50px">
+                <p>Home</p>
+            </a>
+            <a href="#"><img src="Assest/Image/shorts.png" width="50px">
+                <p>Shorts</p>
+            </a>
+            <a href="#"><img src="Assest/Image/subscriprion.png" width="50px">
+                <p>Subscriptions</p>
+            </a>
+            <hr>
+        </div>
+        <!-- ----------------------You----------------------- -->
+        <div class="you-link">
+            <div class="you-link-title">
+                <h3>You</h3>
+                <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+            </div>
+            <a href="#"><img src="Assest/Image/history.png" width="50px">
+                <p>History</p>
+            </a>
+            <a href="#"><img src="Assest/Image/playlist.png" width="50px">
+                <p>Playlist</p>
+            </a>
+            <a href="#"><img src="Assest/Image/Watch_later-icon.png" width="50px">
+                <p>Watch later</p>
+
+                <a href="#"><img src="Assest/Image/like.png" width="50px">
+                    <p>Liked videos</p>
+                </a>
+                <hr>
+        </div>
+
+        <div class="subscribed-list">
+            <h3>Subscriptions</h3>
+            <a href="#"><img src="Assest/Image/Jack.png" width="50px">
+                <p>Jack Niche</p>
+            </a>
+            <a href="#"><img src="Assest/Image/simon.png" width="50px">
+                <p>TechSimon</p>
+            </a>
+            <a href="#"><img src="Assest/Image/tom.png" width="50px">
+                <p>Tom & Jerry</p>
+            </a>
+            <a href="#"><img src="Assest/Image/megan.png" width="50px">
+                <p>Megan Newswala</p>
+            </a>
+            <a href="#"><img src="Assest/Image/cameron.png" width="50px">
+                <p>Cameron baba</p>
+            </a>
+
+            <a href="#"> <i class="fa-solid fa-angle-down" style="color: #000000;"></i>
+                <p class="show-more">Show More</p>
+            </a>
+            <hr>
+        </div>
+
+        <div class="explore-list">
+            <h3>Explore</h3>
+            <a href="#"><img src="Assest/Image/Trending.png" width="50px">
+                <p>Trending</p>
+            </a>
+            <a href="#"><img src="Assest/Image/Shoping.png" width="50px">
+                <p>Shoping</p>
+            </a>
+            <a href="#"><img src="Assest/Image/Music.png" width="50px">
+                <p>Music</p>
+            </a>
+            <a href="#"><img src="Assest/Image/Live.png" width="50px">
+                <p>Live</p>
+            </a>
+            <a href="#"><img src="Assest/Image/more.png" width="50px">
+                <p>Podcast</p>
+            </a>
+            <hr>
+        </div>
+    </div>
+
+
+    <!-- ----------------------main--------------------- -->
+    <div class="container">
+        <!-- <div class="banner">
+            <img src="Assest/Image/banner.png" alt="">
+        </div> -->
+
+        <div class="list-c0ntainer">
+            <!-- First Video -->
+            <div class="video-list">
+                <a href="play_video.html"><img src="Assest/Image/thumbnail1.png" class="thumbinal"></a>
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="play_video.html">Mastering Python in 10 Minutes 🐍💻 || Free Free</a>
+                        <p>Ballu da Coding</p>
+                        <p>10k Views &bull; 5 days ago </p>
+                    </div>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <!-- Second Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/7534246/7534246-hd_1920_1080_25fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail2.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/megan.png">
+                    <div class="video-info">
+                        <a href="#">AI Revolution: The Future is Here 🤖🚀</a>
+                        <p>CodeWithNiya</p>
+                        <p>150k Views &bull; 5 days ago </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Third Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/3209829/3209829-uhd_2560_1440_25fps.mp4"
+                    class="thumbinal"></video>
+
+                <!-- <a href=""><img src="Assest/Image/thumbnail3.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">The Magic of Machine Learning 🔮📊</a>
+                        <p>Ballu da Coding</p>
+                        <p>15k Views &bull; 9 days ago </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fourth Video -->
+            <div class="video-list">
+                <video loop aut src="https://videos.pexels.com/video-files/3006961/3006961-hd_1920_1080_24fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail4.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/user-1.png">
+                    <div class="video-info">
+                        <a href="#">Turning drives into adventures with Google Maps🚘</a>
+                        <p>Traveler Ballu</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fifth Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/4291570/4291570-hd_1920_1080_30fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail5.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Six Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/3577617/3577617-hd_1920_1080_30fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail6.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Saven Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/8201578/8201578-uhd_2560_1440_25fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail7.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Eight Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/3248990/3248990-uhd_2560_1440_25fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail8.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sond Layer Video Same on upper video -->
+            <!-- First Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/8266175/8266175-uhd_2560_1440_25fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail1.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Mastering Python in 10 Minutes 🐍💻 || Free Free</a>
+                        <p>Ballu da Coding</p>
+                        <p>10k Views &bull; 5 days ago </p>
+                    </div>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <!-- Second Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/7534246/7534246-hd_1920_1080_25fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail2.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/megan.png">
+                    <div class="video-info">
+                        <a href="#">AI Revolution: The Future is Here 🤖🚀</a>
+                        <p>CodeWithNiya</p>
+                        <p>150k Views &bull; 5 days ago </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Third Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/3209829/3209829-uhd_2560_1440_25fps.mp4"
+                    class="thumbinal"></video>
+
+                <!-- <a href=""><img src="Assest/Image/thumbnail3.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">The Magic of Machine Learning 🔮📊</a>
+                        <p>Ballu da Coding</p>
+                        <p>15k Views &bull; 9 days ago </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fourth Video -->
+            <div class="video-list">
+                <video loop aut src="https://videos.pexels.com/video-files/3006961/3006961-hd_1920_1080_24fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail4.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/user-1.png">
+                    <div class="video-info">
+                        <a href="#">Turning drives into adventures with Google Maps🚘</a>
+                        <p>Traveler Ballu</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fifth Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/4291570/4291570-hd_1920_1080_30fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail5.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Six Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/3577617/3577617-hd_1920_1080_30fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail6.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Saven Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/8201578/8201578-uhd_2560_1440_25fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail7.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Eight Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/3248990/3248990-uhd_2560_1440_25fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail8.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Part of upper video  -->
+            <!-- First Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/8266175/8266175-uhd_2560_1440_25fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail1.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Mastering Python in 10 Minutes 🐍💻 || Free Free</a>
+                        <p>Ballu da Coding</p>
+                        <p>10k Views &bull; 5 days ago </p>
+                    </div>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <!-- Second Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/7534246/7534246-hd_1920_1080_25fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail2.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/megan.png">
+                    <div class="video-info">
+                        <a href="#">AI Revolution: The Future is Here 🤖🚀</a>
+                        <p>CodeWithNiya</p>
+                        <p>150k Views &bull; 5 days ago </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Third Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/3209829/3209829-uhd_2560_1440_25fps.mp4"
+                    class="thumbinal"></video>
+
+                <!-- <a href=""><img src="Assest/Image/thumbnail3.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">The Magic of Machine Learning 🔮📊</a>
+                        <p>Ballu da Coding</p>
+                        <p>15k Views &bull; 9 days ago </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fourth Video -->
+            <div class="video-list">
+                <video loop aut src="https://videos.pexels.com/video-files/3006961/3006961-hd_1920_1080_24fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail4.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/user-1.png">
+                    <div class="video-info">
+                        <a href="#">Turning drives into adventures with Google Maps🚘</a>
+                        <p>Traveler Ballu</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fifth Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/4291570/4291570-hd_1920_1080_30fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail5.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Six Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/3577617/3577617-hd_1920_1080_30fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail6.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Saven Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/8201578/8201578-uhd_2560_1440_25fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail7.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Eight Video -->
+            <div class="video-list">
+                <video loop autoplay src="https://videos.pexels.com/video-files/3248990/3248990-uhd_2560_1440_25fps.mp4"
+                    class="thumbinal"></video>
+                <!-- <a href=""><img src="Assest/Image/thumbnail8.png" class="thumbinal"></a> -->
+                <div class="flex-div">
+                    <img src="Assest/Image/Jack.png">
+                    <div class="video-info">
+                        <a href="#">Best Youtube Channel to learn coding mxtech</a>
+                        <p>Ballu da Coding</p>
+                        <p>150k Views &bull; 5 days </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
